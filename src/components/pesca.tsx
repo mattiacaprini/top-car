@@ -11,11 +11,9 @@ class Pesca extends React.Component<PescaProps, PescaState> {
 
   render() {
     return (
-      <div>
-        <button className="rounded-xl drop-shadow-lg border-2 border-green-300 bg-green-200 p-4 hover:bg-green-300 hover:border-green-400">
-          PESCA
-        </button>
-      </div>
+      <button className="rounded-xl drop-shadow-lg border-2 border-green-300 bg-green-200 p-4 hover:bg-green-300 hover:border-green-400">
+        PESCA
+      </button>
     );
   }
 }

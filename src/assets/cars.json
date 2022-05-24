@@ -8,7 +8,7 @@
         "peso" : "1200",
         "cilindrata" : "6000",
         "cavalli" : "850",
-        "accelerazione" : "3,3"
+        "accellerazione" : "3,3"
     },
     {
         "rarita" : "A2",
@@ -18,7 +18,7 @@
         "peso" : "1350",
         "cilindrata" : "1800",
         "cavalli" : "500",
-        "accelerazione" : "3,3"
+        "accellerazione" : "3,3"
 
     },
     {
@@ -29,7 +29,7 @@
         "peso" : "1450",
         "cilindrata" : "8000",
         "cavalli" : "1500",
-        "accelerazione" : "2,4"
+        "accellerazione" : "2,4"
 
     },
     {
@@ -40,7 +40,7 @@
         "peso" : "1300",
         "cilindrata" : "3500",
         "cavalli" : "510",
-        "accelerazione" : "5,0"
+        "accellerazione" : "5,0"
     },
     {
         "rarita" : "B2",
@@ -50,7 +50,7 @@
         "peso" : "1400",
         "cilindrata" : "3800",
         "cavalli" : "620",
-        "accelerazione" : "3,4"
+        "accellerazione" : "3,4"
     },
     {
         "rarita" : "B3",
@@ -60,7 +60,7 @@
         "peso" : "2000",
         "cilindrata" : "5200",
         "cavalli" : "700",
-        "accelerazione" : "3,5"
+        "accellerazione" : "3,5"
     },
     {
         "rarita" : "B4",
@@ -70,7 +70,7 @@
         "peso" : "1400",
         "cilindrata" : "3500",
         "cavalli" : "510",
-        "accelerazione" : "4,2"
+        "accellerazione" : "4,2"
     },
     {
         "rarita" : "B5",
@@ -80,7 +80,7 @@
         "peso" : "1500",
         "cilindrata" : "4000",
         "cavalli" : "650",
-        "accelerazione" : "3,4"
+        "accellerazione" : "3,4"
     },
     {
         "rarita" : "B6",
@@ -90,7 +90,7 @@
         "peso" : "1100",
         "cilindrata" : "0",
         "cavalli" : "500",
-        "accelerazione" : "2,9"
+        "accellerazione" : "2,9"
     },
     {
         "rarita" : "B7",
@@ -100,7 +100,7 @@
         "peso" : "1300",
         "cilindrata" : "3800",
         "cavalli" : "490",
-        "accelerazione" : "3,8"
+        "accellerazione" : "3,8"
     },
     {
         "rarita" : "B8",
@@ -110,7 +110,7 @@
         "peso" : "1400",
         "cilindrata" : "2900",
         "cavalli" : "330",
-        "accelerazione" : "4,2"
+        "accellerazione" : "4,2"
     },
     {
         "rarita" : "B9",
@@ -120,7 +120,7 @@
         "peso" : "1400",
         "cilindrata" : "2800",
         "cavalli" : "310",
-        "accelerazione" : "5,4"
+        "accellerazione" : "5,4"
     },
     {
         "rarita" : "C1",
@@ -130,7 +130,7 @@
         "peso" : "1550",
         "cilindrata" : "1435000",
         "cavalli" : "145",
-        "accelerazione" : "6,2"
+        "accellerazione" : "6,2"
     },
     {
         "rarita" : "C2",
@@ -140,7 +140,7 @@
         "peso" : "1600",
         "cilindrata" : "1200",
         "cavalli" : "150",
-        "accelerazione" : "7,4"
+        "accellerazione" : "7,4"
     },
     {
         "rarita" : "C3",
@@ -150,7 +150,7 @@
         "peso" : "1500",
         "cilindrata" : "1300",
         "cavalli" : "140",
-        "accelerazione" : "6,4"
+        "accellerazione" : "6,4"
     },
     {
         "rarita" : "C4",
@@ -160,7 +160,7 @@
         "peso" : "2000",
         "cilindrata" : "1000",
         "cavalli" : "200",
-        "accelerazione" : "4,8"
+        "accellerazione" : "4,8"
     },
     {
         "rarita" : "C5",
@@ -170,27 +170,27 @@
         "peso" : "1400",
         "cilindrata" : "1300",
         "cavalli" : "120",
-        "accelerazione" : "5,2"
+        "accellerazione" : "5,2"
     },
     {
         "rarita" : "C6",
         "nome" : "peugeot",
-        "band iera" : "../img/peugeot/fra.png",
+        "bandiera" : "../img/peugeot/fra.png",
         "img": "../img/peugeot/peugeot.jpeg",
         "peso" : "1800",
         "cilindrata" : "1300",
         "cavalli" : "120",
-        "accelerazione" : "7,0"
+        "accellerazione" : "7,0"
     },
     {
         "rarita" : "C7",
         "nome" : "mini",
-        "band iera" : "../img/mini/ing.png",
+        "bandiera" : "../img/mini/ing.png",
         "img": "../img/mini/mini.jpeg",
         "peso" : "1100",
         "cilindrata" : "900",
         "cavalli" : "100",
-        "accelerazione" : "7,80"
+        "accellerazione" : "7,80"
     },
     {
         "rarita" : "C8",
@@ -200,7 +200,7 @@
         "peso" : "1500",
         "cilindrata" : "1200",
         "cavalli" : "140",
-        "accelerazione" : "7,3"
+        "accellerazione" : "7,3"
     },
     {
         "rarita" : "C9",
@@ -210,17 +210,17 @@
         "peso" : "2000",
         "cilindrata" : "1700",
         "cavalli" : "120",
-        "accelerazione" : "4,8"
+        "accellerazione" : "4,8"
     },
     {
         "rarita" : "D1",
         "nome" : "volkswagen",
-        "band iera" : "../img/volkswagen/ger.png",
+        "bandiera" : "../img/volkswagen/ger.png",
         "img": "../img/volkswagen/volkswagen.jpeg",
         "peso" : "1500",
         "cilindrata" : "1800",
         "cavalli" : "190",
-        "accelerazione" : "6,2"
+        "accellerazione" : "6,2"
     },
     {
         "rarita" : "D2",
@@ -230,76 +230,76 @@
         "peso" : "1400",
         "cilindrata" : "1000",
         "cavalli" : "100",
-        "accelerazione" : "10,5"
+        "accellerazione" : "10,5"
     },
     {
         "rarita" : "D3",
         "nome" : "fiat",
-        "band iera" : "../img/fiat/ita.png",
+        "bandiera" : "../img/fiat/ita.png",
         "img": "../img/fiat/fiat.jpeg",
         "peso" : "1000",
         "cilindrata" : "1100",
         "cavalli" : "100",
-        "accelerazione" : "11,3"
+        "accellerazione" : "11,3"
     },
     {
         "rarita" : "D4",
         "nome" : "habart",
-        "band iera" : "../img/habart/ita.png",
+        "bandiera" : "../img/habart/ita.png",
         "img": "../img/habart/habart.jpeg",
         "peso" : "1000",
         "cilindrata" : "1000",
         "cavalli" : "90",
-        "accelerazione" : "15,3"
+        "accellerazione" : "15,3"
     },
     {
         "rarita" : "D5",
         "nome" : "lancia",
-        "band iera" : "../img/lancia/ita.png",
+        "bandiera" : "../img/lancia/ita.png",
         "img": "../img/lancia/lancia.jpeg",
         "peso" : "1000",
         "cilindrata" : "1050",
         "cavalli" : "100",
-        "accelerazione" : "16,1"
+        "accellerazione" : "16,1"
     },
     {
         "rarita" : "D6",
         "nome" : "alfaRomeo",
-        "band iera" : "../img/alfaRomeo/ita.png",
+        "bandiera" : "../img/alfaRomeo/ita.png",
         "img": "../img/alfaRomeo/alfaRomeo.jpeg",
         "peso" : "1200",
         "cilindrata" : "1300",
         "cavalli" : "240",
-        "accelerazione" : "7,3"
+        "accellerazione" : "7,3"
     },
     {
         "rarita" : "D7",
         "nome" : "dodge",
-        "band iera" : "../img/dodge/usa.png",
+        "bandiera" : "../img/dodge/usa.png",
         "img": "../img/dodge/dodge.jpeg",
         "peso" : "1400",
         "cilindrata" : "1200",
         "cavalli" : "260",
-        "accelerazione" : "6,9"
+        "accellerazione" : "6,9"
     },
     {
         "rarita" : "D8",
         "nome" : "landRover",
-        "band iera" : "../img/landRover/ing.png",
+        "bandiera" : "../img/landRover/ing.png",
         "img": "../img/landRover/landRover.jpeg",
         "peso" : "1800",
         "cilindrata" : "1400",
         "cavalli" : "200",
-        "accelerazione" : "14,6"
+        "accellerazione" : "14,6"
     },
     {
         "rarita" : "D9",
         "nome" : "kia",
-        "band iera" : "../img/kia/cds.png",
+        "bandiera" : "../img/kia/cds.png",
         "img": "../img/kia/kia.jpeg",
         "peso" : "1300",
         "cilindrata" : "1100",
         "cavalli" : "130",
-        "accelerazione" : "13,7"
+        "accellerazione" : "13,7"
     }
 ]

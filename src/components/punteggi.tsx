@@ -21,8 +21,8 @@ class Punteggi extends React.Component<PunteggiProps, PunteggiState> {
 
   render() {
     return (
-      <div className="p-3">
-        <p className="font-bold text-3xl">PUNTEGGI</p>
+      <div className="p-3 text-white ">
+        <p className="font-bold  text-3xl">PUNTEGGI</p>
         <p>P1</p>
       </div>
     );

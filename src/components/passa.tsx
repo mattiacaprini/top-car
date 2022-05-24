@@ -11,11 +11,9 @@ class Passa extends React.Component<PassaProps, PassaState> {
 
   render() {
     return (
-      <div>
-        <button className="rounded-xl drop-shadow-lg border-2 border-red-300 bg-red-200 p-4 hover:bg-red-300 hover:border-red-400 ">
-          PASSA
-        </button>
-      </div>
+      <button className="rounded-xl drop-shadow-lg border-2 border-red-300 bg-red-200 p-4 hover:bg-red-300 hover:border-red-400 ">
+        PASSA
+      </button>
     );
   }
 }

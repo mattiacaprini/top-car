@@ -31,7 +31,15 @@ module.exports = {
       },
       backgroundImage: {
         'imgBackCard': "url('../src/img/utility/backSfondo.png')",
-      }
+      },
+      colors: {
+        'frontCard': 'rgb(36, 40, 47)',
+        'backCard': 'rgb(41, 45, 53)',
+
+      },
+
+
+      
     },
   },
   plugins: [],

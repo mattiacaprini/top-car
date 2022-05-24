@@ -1,10 +1,10 @@
 import React from "react";
 
-interface CardFrontProps {
-  peso: number;
-  cilindrata: number;
-  cavalli: number;
-  accellerazione: number;
+export interface CardFrontProps {
+  peso: string;
+  cilindrata: string;
+  cavalli: string;
+  accellerazione: string;
   rarita: string;
   nome: string;
   bandiera: string;
