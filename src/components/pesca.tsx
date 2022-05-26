@@ -1,6 +1,8 @@
 import React from "react";
 
-interface PescaProps {}
+interface PescaProps {
+  onClick: () => void;
+}
 interface PescaState {}
 
 class Pesca extends React.Component<PescaProps, PescaState> {
@@ -11,7 +13,10 @@ class Pesca extends React.Component<PescaProps, PescaState> {
 
   render() {
     return (
-      <button className="rounded-xl drop-shadow-lg border-2 border-green-300 bg-green-200 p-4 hover:bg-green-300 hover:border-green-400">
+      <button
+        onClick={() => this.props.onClick()}
+        className="rounded-xl drop-shadow-lg border-2 border-green-300 bg-green-200 p-4 hover:bg-green-300 hover:border-green-400"
+      >
         PESCA
       </button>
     );

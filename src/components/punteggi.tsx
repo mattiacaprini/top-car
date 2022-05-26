@@ -1,29 +1,35 @@
 import React from "react";
 
-interface PunteggiProps {}
-interface PunteggiState {
-  //   peso: number;
-  //   cilindrata: number;
-  //   potenza: number;
-  //   accellerazione: number;
+interface PunteggiProps {
+  messaggio: string;
+  punti: number;
+  vincitore: string;
+  winner: boolean;
 }
+interface PunteggiState {}
 
 class Punteggi extends React.Component<PunteggiProps, PunteggiState> {
   constructor(props: PunteggiProps) {
     super(props);
-    this.state = {
-      //   peso: 0,
-      //   cilindrata: 0,
-      //   potenza: 0,
-      //   accellerazione: 0,
-    };
+    this.state = {};
   }
 
   render() {
     return (
       <div className="p-3 text-white ">
-        <p className="font-bold  text-3xl">PUNTEGGI</p>
-        <p>P1</p>
+        <div className=" w-full h-16 ">
+          <p className="font-bold  text-3xl">PUNTEGGIO: {this.props.punti} </p>
+        </div>
+        <div className=" w-full h-24 ">
+          <p className="">{this.props.messaggio}</p>
+        </div>
+        <div className="w-full h-24 ">
+          {this.props.winner && (
+            <p className="text-4xl ">
+              VINCITORE GIOCATORE : {this.props.vincitore}
+            </p>
+          )}
+        </div>
       </div>
     );
   }
