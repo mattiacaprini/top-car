@@ -6,8 +6,8 @@ import AttackList from "../components/attackList";
 import Pesca from "../components/pesca";
 import Passa from "../components/passa";
 import Punteggi from "../components/punteggi";
-import cars from "../assets/cars.json";
 import Attacca from "../components/attacca/attacca";
+import axios from "axios";
 
 interface GamePageProps {}
 
@@ -57,8 +57,8 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
       car2: [],
       counterCard1: 15,
       counterCard2: 15,
-      arr1: cars.slice(0, 15),
-      arr2: cars.slice(15, 30),
+      arr1: [],
+      arr2: [],
       numApp: 0,
       btn1Pass: false,
       btn2Pass: false,
@@ -82,6 +82,15 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
       vincitore: "",
       btnWinner: false,
     };
+  }
+
+  componentDidMount() {
+    axios.get("http://localhost:3333/api/cars").then((result: any) => {
+      this.setState({
+        arr1: result.data.slice(0, 15),
+        arr2: result.data.slice(15, 30),
+      });
+    });
   }
 
   getSelectedCounterpartValue(car: any): number {
@@ -394,14 +403,7 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
               <div className="w-2/4 flex justify-center ">
                 {/*bg-violet-500*/}
                 <CardFront
-                  peso={this.state.car1.peso}
-                  cilindrata={this.state.car1.cilindrata}
-                  cavalli={this.state.car1.cavalli}
-                  accellerazione={this.state.car1.accellerazione}
-                  rarita={this.state.car1.rarita}
-                  nome={this.state.car1.nome}
-                  bandiera={this.state.car1.bandiera}
-                  img={this.state.car1.img}
+                  card={this.state.car1}
                   scomparsa={this.state.btn1Card}
                 />
               </div>
@@ -432,14 +434,7 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
                 {" "}
                 {/*bg-violet-500 */}
                 <CardFront
-                  peso={this.state.car2.peso}
-                  cilindrata={this.state.car2.cilindrata}
-                  cavalli={this.state.car2.cavalli}
-                  accellerazione={this.state.car2.accellerazione}
-                  rarita={this.state.car2.rarita}
-                  nome={this.state.car2.nome}
-                  bandiera={this.state.car2.bandiera}
-                  img={this.state.car2.img}
+                  card={this.state.car2}
                   scomparsa={this.state.btn2Card}
                 />
               </div>
