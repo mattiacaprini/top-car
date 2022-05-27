@@ -182,7 +182,7 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
   }
 
   pesca1() {
-    if (this.state.counterCard1 !== 12) {
+    if (this.state.counterCard1 !== 0) {
       let random1 = Math.round(Math.random() * (this.state.arr1.length - 1));
       let car1 = this.state.arr1.find((car: any, i: any) => i === random1);
       this.setState({
@@ -202,7 +202,7 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
 
         counterCard1: this.state.counterCard1 - 1,
       });
-      if (this.state.counterCard1 === 13) {
+      if (this.state.counterCard1 === 1) {
         this.setState({
           btn1BackCard: false,
         });
@@ -263,7 +263,7 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
   }
   //usare arr2.length invece che i counter
   pesca2() {
-    if (this.state.counterCard2 !== 12) {
+    if (this.state.counterCard2 !== 0) {
       let random2 = Math.round(Math.random() * (this.state.arr2.length - 1));
       let car2 = this.state.arr2.find((car: any, i: any) => i === random2);
       this.setState({
@@ -285,7 +285,7 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
         counterCard2: this.state.counterCard2 - 1,
       });
 
-      if (this.state.counterCard2 === 13) {
+      if (this.state.counterCard2 === 1) {
         this.setState({
           btn2BackCard: false,
         });
