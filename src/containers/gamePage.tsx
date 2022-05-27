@@ -85,12 +85,14 @@ class GamePage extends React.Component<GamePageProps, GamePageState> {
   }
 
   componentDidMount() {
-    axios.get("http://localhost:3333/api/cars").then((result: any) => {
-      this.setState({
-        arr1: result.data.slice(0, 15),
-        arr2: result.data.slice(15, 30),
+    axios
+      .get("https://server-info-gioco-macchine.herokuapp.com/api/cars")
+      .then((result: any) => {
+        this.setState({
+          arr1: result.data.slice(0, 15),
+          arr2: result.data.slice(15, 30),
+        });
       });
-    });
   }
 
   getSelectedCounterpartValue(car: any): number {
